@@ -1,0 +1,11 @@
+{% extends 'points/base.html' %}
+
+{% block title %}
+    Akupunktura miasta
+{% endblock %}
+
+{% block content %}
+    {% for point in points %}
+        <p>{{point}}</p>
+    {% endfor %}
+{% endblock %}
